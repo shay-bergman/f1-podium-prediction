@@ -1,0 +1,20 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+
+# Large Kaggle dataset, generated feature cache, FastF1 HTTP cache, figures
+kaggle_f1_dataset/
+fastf1_features.csv
+ff1_cache/
+*.png
